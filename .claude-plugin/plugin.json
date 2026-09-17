@@ -1,0 +1,11 @@
+{
+  "name": "dev-agent-workflow",
+  "version": "0.1.0",
+  "description": "Risk-based development workflow: short plan, implementation with tests and docs by a subagent, verification by independent reviewer/tester subagents, resumable local delivery on a task branch.",
+  "author": {
+    "name": "Jaroslaw Przybyl"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Jared0o/claude-dev-workflow",
+  "keywords": ["workflow", "risk", "subagents", "review", "verification", "delivery"]
+}

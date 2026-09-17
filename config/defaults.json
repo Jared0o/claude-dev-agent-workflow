@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "models": {
+    "implementer": { "agent": "implementer", "model": "opus" },
+    "tester": { "agent": "tester", "model": "sonnet" },
+    "reviewer": { "agent": "reviewer", "model": "opus" },
+    "diagnosis": { "agent": "diagnosis", "model": "fable" }
+  },
+  "risk_model_overrides": {
+    "high": {
+      "reviewer": { "agent": "reviewer-high", "model": "fable" }
+    }
+  },
+  "max_parallel_agents": 3,
+  "repair_rounds": 2,
+  "escalated_attempts": 1,
+  "communication_language": "pl",
+  "working_language": "en",
+  "delivery": "local"
+}

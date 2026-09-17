@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jared0o-plugins",
+  "description": "Personal Claude Code plugins by Jaroslaw Przybyl",
+  "owner": {
+    "name": "Jaroslaw Przybyl"
+  },
+  "plugins": [
+    {
+      "name": "dev-agent-workflow",
+      "description": "Risk-based development workflow with independent subagents, enforced Git/state guards and resumable local delivery.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
