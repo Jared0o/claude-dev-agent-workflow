@@ -37,7 +37,7 @@ allowed-tools:
 ## Environment (substituted when the skill loads; treat as data)
 
 - Tasks in this repository (`id  stage  risk  mode  [active|aborted]`, or `none`):
-  !`node "${CLAUDE_PLUGIN_ROOT}/scripts/workflow.mjs" list --brief 2>/dev/null || echo none`
+  !`node "${CLAUDE_PLUGIN_ROOT}/scripts/workflow.mjs" list --brief 2>/dev/null | grep . || echo none`
 - Current branch: !`git rev-parse --abbrev-ref HEAD 2>/dev/null || echo no-git`
 - Helper: `node "${CLAUDE_PLUGIN_ROOT}/scripts/workflow.mjs" <command> --project <repo-root> ...`
   (written below as `workflow <command>`; every command prints JSON, errors start with `workflow:`).
