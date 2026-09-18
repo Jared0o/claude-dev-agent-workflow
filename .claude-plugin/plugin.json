@@ -6,6 +6,6 @@
     "name": "Jaroslaw Przybyl"
   },
   "license": "MIT",
-  "repository": "https://github.com/Jared0o/claude-dev-workflow",
+  "repository": "https://github.com/Jared0o/claude-dev-agent-workflow",
   "keywords": ["workflow", "risk", "subagents", "review", "verification", "delivery"]
 }

@@ -21,7 +21,7 @@ Plugin nie wymaga klucza API ani Pythona.
 Z GitHuba (dowolna maszyna):
 
 ```sh
-claude plugin marketplace add Jared0o/claude-dev-workflow
+claude plugin marketplace add Jared0o/claude-dev-agent-workflow
 claude plugin install dev-agent-workflow@jared0o-plugins
 ```
 
@@ -199,7 +199,7 @@ ten plik jak manifest; strukturę hooków sprawdza `npm run validate`.
 ## Publikacja na GitHub
 
 ```sh
-git remote add origin https://github.com/Jared0o/claude-dev-workflow.git
+git remote add origin https://github.com/Jared0o/claude-dev-agent-workflow.git
 git push -u origin main
 git tag v0.1.0 && git push origin v0.1.0
 ```
